@@ -109,7 +109,7 @@
 
         Keyboard_Reset_Behavior {
             bindings = <&bootloader>;
-            key-positions = <11 10>;
+            key-positions = <11 0>;
             layers = <5>;
         };
     };
