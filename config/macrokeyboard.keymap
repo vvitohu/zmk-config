@@ -85,31 +85,31 @@
 
         AutoCAD {
             bindings = <&to 2>;
-            key-positions = <3 4>;
+            key-positions = <11 1>;
             layers = <0>;
         };
 
         Onshape {
             bindings = <&to 4>;
-            key-positions = <3 8>;
+            key-positions = <0 11>;
             layers = <0>;
         };
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <3 7>;
+            key-positions = <11 10>;
             layers = <3 1>;
         };
 
         Bluetooth_Setting {
             bindings = <&to 5>;
-            key-positions = <3 9>;
+            key-positions = <3 11>;
             layers = <0>;
         };
 
         Keyboard_Reset_Behavior {
             bindings = <&bootloader>;
-            key-positions = <7 3>;
+            key-positions = <11 10>;
             layers = <5>;
         };
     };
