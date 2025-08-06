@@ -172,10 +172,10 @@
 
         Bluetooth_Setting {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2
-&bt BT_CLR    &out OUT_USB    &out OUT_BLE
-&none         &none           &none
-&sys_reset    &studio_unlock  &to 0
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2
+&bt BT_CLR      &out OUT_USB  &out OUT_BLE
+&studio_unlock  &none         &none
+&sys_reset      &none         &to 0
             >;
         };
 
