@@ -45,7 +45,7 @@ config ZMK_SLEEP
     default y
     
 config ZMK_IDLE_SLEEP_TIMEOUT
-    default 5400
+    default 1800
 
   
 config ZMK_EXT_POWER
