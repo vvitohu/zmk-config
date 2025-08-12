@@ -12,11 +12,6 @@ config BT
 config ZMK_BLE
     default y
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default n
-
-config ZMK_SPLIT
-    default n
 
 # Set this to the number of peripherals your dongle will have.
 # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
